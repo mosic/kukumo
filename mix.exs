@@ -55,7 +55,7 @@ defmodule Kukumo.Mixfile do
 
   defp package do
     [
-      maintainers: ["Matt Widmann", "Steve B"],
+      maintainers: ["Miloš Mošić", "Matt Widmann", "Steve B"],
       licenses: ["MIT"],
       links: %{github: "https://github.com/mosic/kukumo"}
     ]
