@@ -148,16 +148,3 @@ Or, if you want to run a single test, that can be accomplished with:
 ```shell
 $ docker-compose run --rm cabbage test test/feature_test.exs
 ```
-
-# Roadmap
-
-- [x] Scenarios
-- [x] Scenario Outlines
-- [x] ExUnit Case Templates
-- [x] Data tables
-- [x] Executing specific tests
-- [x] Tags implementation
-- [x] Background steps
-- [x] Rules
-- [ ] Integration Helpers for Wallaby (separate project?)
-- [ ] Integration Helpers for Hound (separate project?)
