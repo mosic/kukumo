@@ -1,8 +1,8 @@
-defmodule Cabbage.Feature.Loader do
+defmodule Kukumo.Feature.Loader do
   alias Gherkin.Elements.{Feature, Scenario, Step}
 
   def load_from_file(path) do
-    "#{Cabbage.base_path()}#{path}"
+    "#{Kukumo.base_path()}#{path}"
     |> File.read!()
     |> load_from_string()
   end

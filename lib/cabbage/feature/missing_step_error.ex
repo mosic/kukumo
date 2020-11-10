@@ -1,4 +1,4 @@
-defmodule Cabbage.Feature.MissingStepError do
+defmodule Kukumo.Feature.MissingStepError do
   @moduledoc """
   Raises an error, because a feature step is missing its implementation.
 

@@ -1,20 +1,20 @@
-defmodule Cabbage.Mixfile do
+defmodule Kukumo.Mixfile do
   use Mix.Project
 
   @version "0.4.0"
   def project do
     [
-      app: :cabbage,
+      app: :kukumo,
       version: @version,
       elixir: "~> 1.11",
-      source_url: "git@github.com:cabbage-ex/cabbage.git",
-      homepage_url: "https://github.com/cabbage-ex/cabbage",
+      source_url: "git@github.com:mosic/kukumo.git",
+      homepage_url: "https://github.com/mosic/kukumo",
       elixirc_paths: elixirc_paths(Mix.env()),
       build_embedded: Mix.env() == :prod,
       start_permanent: Mix.env() == :prod,
       description: "Story BDD tool for executing elixir in ExUnit",
       docs: [
-        main: Cabbage,
+        main: Kukumo,
         readme: "README.md"
       ],
       package: package(),
@@ -57,7 +57,7 @@ defmodule Cabbage.Mixfile do
     [
       maintainers: ["Matt Widmann", "Steve B"],
       licenses: ["MIT"],
-      links: %{github: "https://github.com/cabbage-ex/cabbage"}
+      links: %{github: "https://github.com/mosic/kukumo"}
     ]
   end
 

@@ -7,7 +7,7 @@ File.rm_rf!(path)
 File.mkdir_p!(path)
 Code.prepend_path(path)
 
-defmodule CabbageTestHelper do
+defmodule KukumoTestHelper do
   import ExUnit.CaptureIO
 
   def run(filters \\ [], cases \\ [])
