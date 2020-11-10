@@ -1,9 +1,7 @@
 # Kukumo
 
-[![Coverage Status](https://coveralls.io/repos/github/mosic/kukumo/badge.svg?branch=master)](https://coveralls.io/github/mosic/kukumo?branch=master)
 [![CircleCI](https://circleci.com/gh/mosic/kukumo.svg?style=svg)](https://circleci.com/gh/mosic/kukumo)
 [![Build Status](https://semaphoreci.com/api/v1/mosic/kukumo/branches/master/shields_badge.svg)](https://semaphoreci.com/mosic/kukumo)
-[![Hex.pm](https://img.shields.io/hexpm/v/kukumo.svg)]()
 
 A simple addon on top of [ExUnit](https://hexdocs.pm/ex_unit/ExUnit.html) which provides compile time translation of `.feature` files to exunit tests. Big thanks to [@meadsteve](https://github.com/meadsteve) and the [White Bread](https://github.com/meadsteve/white-bread) project for a huge head start on this project.
 
@@ -15,7 +13,7 @@ A simple addon on top of [ExUnit](https://hexdocs.pm/ex_unit/ExUnit.html) which 
 
 ```elixir
 def deps do
-  [{:kukumo, "~> 0.3.0"}]
+  [{:kukumo, github: "mosic/kukumo"}]
 end
 ```
 
